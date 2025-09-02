@@ -1,3 +1,5 @@
+import { JSX } from "react";
+
 // components/SkillBadge.tsx
 export default function SkillBadge({
   name,
