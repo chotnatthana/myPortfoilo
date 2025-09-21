@@ -34,16 +34,6 @@ export default function Home() {
       </div>
       {/* Custom cursor */}
       <SplashCursor />
-      <GradualBlurMemo
-        target="parent"
-        position="bottom"
-        height="6rem"
-        strength={2}
-        divCount={5}
-        curve="bezier"
-        exponential={true}
-        opacity={1}
-      />
     </section>
   );
 }

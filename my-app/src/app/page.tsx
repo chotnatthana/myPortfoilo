@@ -83,13 +83,12 @@ export default function Home() {
     >
       <div style={{ height: "100%", overflowY: "auto", padding: "6rem 2rem" }}>
         <div className="relative flex min-h-screen flex-col items-center justify-center overflow-hidden">
-          {/* Soft animated squares */}
           <Squares
-            speed={0.2} // slower for smooth movement
-            squareSize={40} // smaller squares
+            speed={0.2}
+            squareSize={40}
             direction="diagonal"
-            borderColor="rgba(255,255,255,0.1)" // subtle border
-            hoverFillColor="rgba(247,164,8,0.1)" // very light hover accent
+            borderColor="rgba(255,255,255,0.1)"
+            hoverFillColor="rgba(247,164,8,0.1)"
           />
 
           {/* Main content */}
@@ -114,12 +113,13 @@ export default function Home() {
 
             <br />
             <p className="mb-6 text-gray-300">
-              Hi! I’m a passionate software engineer skilled in C#, C++, Python,
-              JavaScript, and Lua, with experience across MacOS, Windows, and
-              Linux. I enjoy turning complex problems into efficient solutions,
-              applying software design principles and networking knowledge to
-              build reliable and innovative applications. Always eager to learn
-              and explore new technologies.
+              Hey! I’m Natthanachot Pranpa, but you can just call me Chot.
+              <span> I’m {new Date().getFullYear() - 2002}</span> and graduated
+              with a Bachelor’s degree in Computer Science (Aug, 2025). I love
+              building things with code, exploring new technologies, and finding
+              creative ways to solve problems. Whether it’s programming,
+              tinkering with design ideas, or diving into tech concepts, I’m
+              always curious and excited to learn.
             </p>
             <br />
 
@@ -199,9 +199,6 @@ export default function Home() {
               <SkillBadge name="React" icon={<FaReact />} />
               <SkillBadge name="Tailwind" icon={<RiTailwindCssFill />} />
               <SkillBadge name="MySQL" icon={<SiMysql />} />
-              <SkillBadge name="MongoDB" icon={<SiMongodb />} />
-              <SkillBadge name="Flutter" icon={<SiFlutter />} />
-              <SkillBadge name="React Native" icon={<TbBrandReactNative />} />
               <SkillBadge name="Figma" icon={<SiFigma />} />
               <SkillBadge name="Visio" icon={<FaMicrosoft />} />
               <SkillBadge name="Power BI" icon={<FaMicrosoft />} />
@@ -215,7 +212,6 @@ export default function Home() {
               <SkillBadge name="Node" icon={<SiNodedotjs />} />
               <SkillBadge name="Express" icon={<SiExpress />} />
               <SkillBadge name="DiscordJS" icon={<SiDiscord />} />
-              <SkillBadge name="Cloudflare" icon={<SiCloudflare />} />
               <SkillBadge name="Rojo" />
               {/* Add more badges here */}
             </div>
@@ -241,16 +237,6 @@ export default function Home() {
       </div>
       {/* Custom cursor */}
       <SplashCursor />
-      <GradualBlurMemo
-        target="parent"
-        position="bottom"
-        height="6rem"
-        strength={2}
-        divCount={5}
-        curve="bezier"
-        exponential={true}
-        opacity={1}
-      />
     </section>
   );
 }
