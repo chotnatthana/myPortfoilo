@@ -59,21 +59,6 @@ const workHistoryData = [
       "Develop an application following requirements from business stakeholders.",
     ],
   },
-  {
-    role: "Director / Lead Programmer",
-    company: "VANICHIEN Studios",
-    location: "Worldwide",
-    type: "Volunteer",
-    date: "Jun 2025 - Present",
-    points: [
-      "Define and drive the technical vision and architecture for current and future game projects.",
-      "Lead, mentor, and support a team of programmers, fostering collaboration and technical growth.",
-      "Write, review, and maintain clean, efficient, and scalable code.",
-      "Collaborate with designers, artists, and producers to translate creative ideas into functional systems.",
-      "Establish and enforce coding standards, workflows, and best practices across the studio.",
-      "Manage technical risks, troubleshoot complex issues, and optimize game performance.",
-    ],
-  },
 ];
 
 export default function Home() {
@@ -164,9 +149,9 @@ export default function Home() {
                 You can reach me via email or on social media.
               </p>
               <div className="flex flex-wrap gap-2 mb-30">
-                <a href="mailto:contact@chotnatthana.online" target="_blank">
+                <a href="mailto:contact@chotnatthana.me" target="_blank">
                   <SkillBadge
-                    name="contact@chotnatthana.online"
+                    name="contact@chotnatthana.me"
                     icon={<SiMailboxdotorg />}
                   />
                 </a>
